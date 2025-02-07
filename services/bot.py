@@ -32,7 +32,7 @@ def initialize():
     - O chatbot é configurado com o adaptador 'BestMatch', que tenta encontrar a melhor resposta possível.
     - A comparação de mensagens está desativada no momento, mas a função compare_messages poderia ser usada aqui.
     """
-    bot = ChatBot("IFBA Service Bot",  # Nome do chatbot
+    bot = ChatBot("Mechanic Bot",  # Nome do chatbot
                   read_only=True,       # O bot é apenas de leitura (não aprende com interações)
                 #    statement_comparison_function=compare_messages,  # Descomentando isso permitiria usar a função de comparação personalizada
                   logic_adapters=[  # Lista de adaptadores de lógica para o chatbot
