@@ -1,0 +1,7 @@
+chatterbot==1.0.4
+chatterbot_corpus==1.2.0
+pytz
+flask
+
+# Comando para instalar as dependencias do robo
+# pip install -r requirements.txt
