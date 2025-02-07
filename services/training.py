@@ -4,7 +4,7 @@ import json
 
 CONVERSATIONS = [
     "./data/greetings.json",
-    "./data/basic_information.json"
+    "./data/basic_infos.json"
 ]
 
 def initialize():

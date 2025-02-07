@@ -1,0 +1,20 @@
+{
+    "conversations": [
+        {
+            "messages": [ "oi", "ola", "tudo bem?" ],
+            "response": "Ola, sou o robo mecanico. Em que posso te ajudar hoje?"    
+        },
+        {
+            "messages": ["bom dia"],
+            "response": "Bom dia, sou o robo mecanico. Em que posso te ajudar hoje?"
+        },
+        {
+            "messages": ["boa tarde"],
+            "response": "Boa tarde, sou o robo mecanico. Em que posso te ajudar hoje?"
+        },
+        {
+            "messages": ["boa noite"],
+            "response": "Boa noite, sou o robo mecanico. Em que posso te ajudar hoje?"
+        }
+    ]
+}

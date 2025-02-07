@@ -1,7 +1,7 @@
 from bot import *
 from flask import Flask
 
-chatbot = iniciar()
+chatbot = initialize()
 api_bot = Flask(__name__)
 
 @api_bot.route("/resposta/<mensagem>")

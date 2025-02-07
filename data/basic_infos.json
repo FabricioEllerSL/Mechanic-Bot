@@ -1,44 +1,44 @@
 {
-    "conversas": [
+    "conversations": [
         {
-            "mensagens": [
+            "messages": [
                 "Qual a frequencia de troca de oleo do meu veiculo?",
                 "Quando devo trocar o oleo do carro?",
                 "Quando vence o oleo do carro?"
             ],
-            "resposta": "A troca de oleo deve ser feita a cada 5000 a 10000 km ou conforme o manual do veiculo :)"
+            "response": "A troca de oleo deve ser feita a cada 5000 a 10000 km ou conforme o manual do veiculo :)"
         },
         {
-            "mensagens": [
+            "messages": [
                 "Como saber as especificacões do pneu?",
                 "Qual pneu usar?",
                 "Qual o pneu do meu carro?"
             ],
-            "resposta": "As especificacões do pneu estao na lateral dele, indicando largura, perfil, tipo, aro, carga e velocidade. Tambem podem ser encontradas no manual do veiculo :)"
+            "response": "As especificacões do pneu estao na lateral dele, indicando largura, perfil, tipo, aro, carga e velocidade. Tambem podem ser encontradas no manual do veiculo :)"
         },
         {
-            "mensagens": [
+            "messages": [
                 "Qual a amperagem de uma bateria de carro?",
                 "Quantos amperes tem uma bateria de carro?",
                 "Uma bateria de carro tem quantos amperes?"
             ],
-            "resposta": "A amperagem de uma bateria de carro varia entre 40Ah e 100Ah, dependendo do modelo do veiculo. Consulte o manual para a especificacao exata :)"
+            "response": "A amperagem de uma bateria de carro varia entre 40Ah e 100Ah, dependendo do modelo do veiculo. Consulte o manual para a especificacao exata :)"
         },
         {
-            "mensagens": [
+            "messages": [
                 "Como fazer a troca de oleo do veiculo?",
                 "Como trocar o oleo do veiculo?",
                 "Da para trocar o oleo do veiculo sozinho?"
             ],
-            "resposta": "Para trocar o oleo do veiculo, aqueca o motor, drene o oleo antigo, troque o filtro se necessario, recoloque o bujao, adicione o novo oleo conforme a especificacao do manual, verifique o nivel com a vareta e ligue o motor para checar vazamentos :)"
+            "response": "Para trocar o oleo do veiculo, aqueca o motor, drene o oleo antigo, troque o filtro se necessario, recoloque o bujao, adicione o novo oleo conforme a especificacao do manual, verifique o nivel com a vareta e ligue o motor para checar vazamentos :)"
         },
         {
-            "mensagens": [
+            "messages": [
                 "Por que carros possuem diferentes combustiveis?",
                 "Por que cada tipo de carro usa diferentes combustiveis?",
                 "Qual o combustivel mais eficiente para cada tipo de carro?"
             ],
-            "resposta": "Carros possuem diferentes combustiveis para atender a necessidades de eficiencia, custo, disponibilidade e impacto ambiental."
+            "response": "Carros possuem diferentes combustiveis para atender a necessidades de eficiencia, custo, disponibilidade e impacto ambiental."
         }
     ]
 }
