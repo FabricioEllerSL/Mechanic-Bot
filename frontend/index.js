@@ -3,21 +3,21 @@ var http = require('http');
 var server = http.Server(app)
 var io = require('socket.io')(server);
 var port = process.env.PORT || 3000;
-const botUrl = "http://127.0.0.1:5000/resposta/";
+const botUrl = "http://127.0.0.1:5000/response/";
 
 app.get('/', function (req, res) {
   res.sendFile(__dirname + '/public/index.html');
 });
 
-getRespostaRobo = (msg) => {
+getBotResponse = (msg) => {
   let data = "";
 
-  http.get(botUrl + msg, (resposta) => {
-    resposta.on("data", (chunk) => {
+  http.get(botUrl + msg, (response) => {
+    response.on("data", (chunk) => {
       data += chunk;
     });
 
-    resposta.on("end", () => {
+    response.on("end", () => {
       io.emit('chat message', "Mechanic Bot: " + data);
     });
 
@@ -26,8 +26,8 @@ getRespostaRobo = (msg) => {
 
 io.on('connection', function (socket) {
   socket.on('chat message', function (msg) {
-    io.emit('chat message', "você: " + msg);
-    getRespostaRobo(msg);
+    io.emit('chat message', "you: " + msg);
+    getBotResponse(msg);
   });
 });
 

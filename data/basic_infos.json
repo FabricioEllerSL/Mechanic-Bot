@@ -14,7 +14,7 @@
                 "Qual pneu usar?",
                 "Qual o pneu do meu carro?"
             ],
-            "response": "As especificacões do pneu estao na lateral dele, indicando largura, perfil, tipo, aro, carga e velocidade. Tambem podem ser encontradas no manual do veiculo :)"
+            "response": "As especificacoes do pneu estao na lateral dele, indicando largura, perfil, tipo, aro, carga e velocidade. Tambem podem ser encontradas no manual do veiculo :)"
         },
         {
             "messages": [
