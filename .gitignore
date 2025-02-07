@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.sqlite3
+
+.nyc_output
+node_modules/
